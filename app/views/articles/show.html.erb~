@@ -1,0 +1,18 @@
+<p>
+
+<body bgcolor="Pink">
+<strong>Title:</strong>
+<%= @article.title %>
+</p>
+<p>
+p {
+    border:1px solid black;
+    padding:10px;
+    margin:30px;
+}
+<strong>Text:</strong>
+<%= @article.text %>
+</p>
+
+<%= link_to 'Main Window', articles_path %>
+</body>
